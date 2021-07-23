@@ -1,0 +1,5 @@
+.env
+.idea
+python-zulip-venv
+zucanvas
+__pycache__
