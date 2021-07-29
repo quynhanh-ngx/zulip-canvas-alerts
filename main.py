@@ -30,7 +30,6 @@ GROUPS = {
     'ta': {x for x in os.getenv('TA_EMAILS', '').split(',') if x},
     'all': set()
 }
-REMINDER_GROUPS = [x for x in os.getenv('REMINDER_GROUPS', '').split(',') if x]
 CANVAS_COURSE_ID = os.environ['CANVAS_COURSE_ID']
 MAX_REMINDER_DAYS = 30
 GRADEBOOK_CSV = os.environ['GRADEBOOK_CSV']
