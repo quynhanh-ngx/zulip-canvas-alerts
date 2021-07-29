@@ -3,3 +3,4 @@
 python-zulip-venv
 zucanvas
 __pycache__
+*.csv
