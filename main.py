@@ -232,7 +232,7 @@ def main():
             continue
 
         reminder = get_reminder_msg(upcoming, overdue, RESOURCES)
-        message_users(reminder, list(GROUPS['ta'] | GROUPS['prof']))
+        message_users(reminder, list(GROUPS['ta']))
 
         # TODO: Uncomment to actually send to students
         # message_users(reminder, list(GROUPS['ta'] | GROUPS['prof'] | {email}))
